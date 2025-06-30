@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "type": "movie",
+        "title": "John Wick (2014)",
+        "year": "2014",
+        "rating": "7.4",
+        "poster": "https://image.tmdb.org/t/p/original/wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+        "country": ["United States"],
+        "genre": ["Action", "Thriller"],
+        "quality": "HD",
+        "director": "Chad Stahelski",
+        "cast": "Keanu Reeves, Michael Nyqvist, Alfie Allen",
+        "description": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
+        "trailerUrl": "https://vidlink.pro/movie/245891?sub_file=https://raw.githubusercontent.com/bangdit28/BroFlix/main/Subtitle/John.Wick.2014.All.RERIP.PROPER.Blu-Ray.BDRip.720p.1080p.Ganool.and.YIFY.WWW.SEBUAH-DONGENG.COM.vtt&sub_label=Indonesia",
+        "availableSubtitles": ["Indonesian", "English", "Spanish"],
+        "keywords": ["hitman", "gangster", "secret organization", "bratva (russian mafia)", "revenge", "murder", "dog", "retired", "widower"]
+    },
+    {
+        "id": 2,
+        "type": "movie",
+        "title": "Badarawuhi di Desa Penari (2024)",
+        "year": "2024",
+        "rating": "6.0",
+        "poster": "https://image.tmdb.org/t/p/original/A4kY5RKiPJ0sRknU4NojItr93Jr.jpg",
+        "country": ["Indonesia"],
+        "genre": ["Horror", "Mystery", "Thriller"],
+        "quality": "HD",
+        "director": "Kimo Stamboel",
+        "cast": "Maudy Effrosina, Aulia Sarah, Jourdy Pranata",
+        "description": "Mila must return a mystical bracelet to the Dancing Village unaware that Badarawuhi - a mysterious, mythical being who rules the village - awaits her.",
+        "trailerUrl": "https://vidlink.pro/movie/1176166",
+        "availableSubtitles": ["Arabic", "English", "Spanish"],
+        "keywords": ["dancing", "based on novel or book", "snake", "dance", "revenge", "village", "forest", "prequel", "haunting", "ghost", "traditional dancer", "dance ritual", "supernatural horror", "terror", "traditional dance", "supernatural thriller", "based on twitter thread"]
+    },
+    {
+        "id": 3,
+        "type": "movie",
+        "title": "KPop Demon Hunters (2025)",
+        "year": "2025",
+        "rating": "8.6",
+        "poster": "https://image.tmdb.org/t/p/original/jfS5KEfiwsS35ieZvdUdJKkwLlZ.jpg",
+        "country": ["United States"],
+        "genre": ["Animation", "Fantasy", "Action", "Comedy"],
+        "quality": "HD",
+        "director": "Maggie Kang, Chris Appelhans",
+        "cast": "Arden Cho, May Hong, Ji-young Yoo",
+        "description": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
+        "trailerUrl": "https://vidlink.pro/movie/803796",
+        "availableSubtitles": ["Indonesia", "English", "Spanish"],
+        "keywords": ["double life", "musical", "supernatural", "female protagonist", "duringcreditsstinger", "demon hunter", "girl group", "boy band", "fandom", "k-pop", "3d animation", "save the world", "admiring", "joyful", "k-pop group", "trio"]
+    },
+    {
+        "id": 4,
+        "type": "series",
+        "title": "Squid Game (2021)",
+        "year": "2021",
+        "rating": "7.9",
+        "poster": "https://image.tmdb.org/t/p/original/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+        "country": ["South Korea"],
+        "genre": ["Action", "Mystery", "Drama"],
+        "quality": "HD",
+        "cast": "Lee Jung-jae, Wi Ha-jun, Lee Byung-hun",
+        "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+        "availableSubtitles": ["Indonesian", "English", "German"],
+        "keywords": ["secret organization", "challenge", "survival", "fictional game show", "cruelty", "game", "death match", "prize", "hopeless", "grim", "desperate", "anxious", "cautionary", "suspense", "death game", "thriller", "depressing", "disheartening", "tragic"],
+        "seasons": [
+            {
+                "season": 1,
+                "episodes": [
+                    { "episode": 1, "title": "Red Light, Green Light", "videoUrl": "https://vidlink.pro/tv/93405/1/1" },
+                    { "episode": 2, "title": "Hell", "videoUrl": "https://vidlink.pro/tv/93405/1/2" },
+                    { "episode": 3, "title": "The Man with the Umbrella", "videoUrl": "https://vidlink.pro/tv/93405/1/3" },
+                    { "episode": 4, "title": "Stick to the Team", "videoUrl": "https://vidlink.pro/tv/93405/1/4" },
+                    { "episode": 5, "title": "A Fair World", "videoUrl": "https://vidlink.pro/tv/93405/1/5" },
+                    { "episode": 6, "title": "Gganbu", "videoUrl": "https://vidlink.pro/tv/93405/1/6" },
+                    { "episode": 7, "title": "VIPS", "videoUrl": "https://vidlink.pro/tv/93405/1/7" },
+                    { "episode": 8, "title": "Front Man", "videoUrl": "https://vidlink.pro/tv/93405/1/8" },
+                    { "episode": 9, "title": "One Lucky Day", "videoUrl": "https://vidlink.pro/tv/93405/1/9" }
+                ]
+            },
+            {
+                "season": 2,
+                "episodes": [
+                    { "episode": 1, "title": "Bread and Lottery", "videoUrl": "https://vidlink.pro/tv/93405/2/1" },
+                    { "episode": 2, "title": "Halloween Party", "videoUrl": "https://vidlink.pro/tv/93405/2/2" },
+                    { "episode": 3, "title": "001", "videoUrl": "https://vidlink.pro/tv/93405/2/3" },
+                    { "episode": 4, "title": "Six Legs", "videoUrl": "https://vidlink.pro/tv/93405/2/4" },
+                    { "episode": 5, "title": "One More Game", "videoUrl": "https://vidlink.pro/tv/93405/2/5" },
+                    { "episode": 6, "title": "O ﻿ X", "videoUrl": "https://vidlink.pro/tv/93405/2/6" },
+                    { "episode": 7, "title": "Friend or Foe", "videoUrl": "https://vidlink.pro/tv/93405/2/7" }
+                ]
+            },
+            {
+                "season": 3,
+                "episodes": [
+                    { "episode": 1, "title": "Keys and Knives", "videoUrl": "https://vidlink.pro/tv/93405/3/1" },
+                    { "episode": 2, "title": "The Starry Night", "videoUrl": "https://vidlink.pro/tv/93405/3/2" },
+                    { "episode": 3, "title": "It's Not Your Fault", "videoUrl": "https://vidlink.pro/tv/93405/3/3" },
+                    { "episode": 4, "title": "222", "videoUrl": "https://vidlink.pro/tv/93405/3/4" },
+                    { "episode": 5, "title": "○△□", "videoUrl": "https://vidlink.pro/tv/93405/3/5" },
+                    { "episode": 6, "title": "Humans Are...", "videoUrl": "https://vidlink.pro/tv/93405/3/6" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "movie",
+        "title": "John Wick: Chapter 2 (2017)",
+        "year": "2017",
+        "rating": "7.3",
+        "poster": "https://image.tmdb.org/t/p/original/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+        "country": ["United States"],
+        "genre": ["Action", "Thriller", "Crime"],
+        "quality": "HD",
+        "director": "Chad Stahelski",
+        "cast": "Keanu Reeves, Common, Laurence Fishburne",
+        "description": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
+        "trailerUrl": "https://vidlink.pro/movie/324552?sub_file=https://raw.githubusercontent.com/bangdit28/BroFlix/main/Subtitle/John-Wick-Chapter-2-2017-Semua-BluRayRip-720p-480p-1080p.www.lebahku.com.vtt&sub_label=Indonesian",
+        "availableSubtitles": ["Indonesian", "English"],
+        "keywords": ["hitman", "secret organization", "sequel", "revenge", "shootout", "handshake", "neo-noir", "guns", "dark", "dogs", "cliché", "roof-top"]
+    },
+    {
+        "id": 6,
+        "type": "series",
+        "title": "The Last of Us (2023)",
+        "year": "2023",
+        "rating": "8.5",
+        "poster": "https://image.tmdb.org/t/p/original/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+        "country": ["United States", "Canada"],
+        "genre": ["Action", "Adventure", "Drama"],
+        "quality": "HD",
+        "cast": "Pedro Pascal, Bella Ramsey, Gabriel Luna",
+        "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+        "availableSubtitles": ["Indonesian", "English", "Japanese"],
+        "keywords": ["people smuggling", "post-apocalyptic future", "infection", "survival", "epidemic", "based on video game"],
+        "seasons": [
+            {
+                "season": 1,
+                "episodes": [
+                    { "episode": 1, "title": "Anjin", "videoUrl": "https://www.youtube.com/embed/H4_82h5D62U" },
+                    { "episode": 2, "title": "Servants of Two Masters", "videoUrl": "https://www.youtube.com/embed/H4_82h5D62U" }
+                ]
+            },
+            {
+                "season": 2,
+                "episodes": [
+                    { "episode": 1, "title": "The Return", "videoUrl": "https://www.youtube.com/embed/H4_82h5D62U" }
+                ]
+            }
+        ]
+    }
+]
