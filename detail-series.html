@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watching Series - BroFlix</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- PERUBAHAN: Menghubungkan ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MODAL POPUP IKLAN (Tidak berubah) -->
+    <div class="modal fade" id="adModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header border-secondary"><h5 class="modal-title">Please Support Us</h5></div>
+                <div class="modal-body text-center">
+                    <p>To watch the series, please click the ad button below. A new tab will open.</p>
+                    <a id="ad-link-button" href="https://link-iklan-directlink-kamu.com" target="_blank" class="btn btn-lg btn-success w-100">CLICK AD & PLAY SERIES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container mt-4">
+        <!-- Player -->
+        <div class="row">
+            <div class="col-12"><div class="ratio ratio-16x9">
+                <div id="player-placeholder"><i class="fas fa-play-circle play-icon"></i></div>
+                <iframe id="video-player" class="d-none" src="" title="Video player" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div></div>
+        </div>
+
+        <!-- Bagian Pemilihan Season & Episode -->
+        <div class="row mt-3">
+            <div class="col-12 episode-section">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-lg-3 mb-3 mb-md-0">
+                        <label class="form-label info-label">Select Season:</label>
+                        <div class="dropdown" id="season-selector">
+                            <!-- Dropdown Season akan di-generate JS -->
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-9">
+                         <label class="form-label info-label">Select Episode:</label>
+                        <div class="episode-list" id="episode-list">
+                            <!-- Tombol Episode akan di-generate JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Detail Series -->
+        <div class="row mt-4 g-4">
+            <div class="col-md-3 text-center"><img id="series-poster" src="" class="img-fluid rounded shadow-lg"></div>
+            <div class="col-md-9">
+                 <h1 id="series-title" class="fw-bold">Loading...</h1>
+                <p id="series-description" class="text-secondary"></p>
+                <hr class="border-secondary">
+                <div class="row">
+                    <div class="col-lg-6 mb-2"><span class="info-label">Cast:</span> <span id="series-cast" class="info-value"></span></div>
+                    <div class="col-lg-6 mb-2"><span class="info-label">Quality:</span> <span id="series-quality" class="info-value"></span></div>
+                    <div class="col-12 mb-2"><span class="info-label">Genre:</span> <span id="series-genre" class="info-value"></span></div>
+                    <div class="col-12 mb-2"><span class="info-label">Subtitles:</span> <span id="series-subtitles" class="info-value"></span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center my-4"><a href="index.html" class="btn btn-outline-light">← Back to Home</a></div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="detail-series.js"></script>
+</body>
+</html>
