@@ -1,0 +1,266 @@
+/* ============================================== */
+/*           CINEVERSE - BRAND & DESAIN BARU      */
+/* ============================================== */
+
+/* -- 1. Variabel Warna & Font "Cosmic Night" -- */
+:root {
+    --bg-primary: #10141F;      /* Void Black */
+    --bg-secondary: #161D2F;   /* Starless Night */
+    --text-primary: #E6EDF3;   /* Starlight White */
+    --text-secondary: #8B949E; /* Nebula Gray */
+    --border-color: #30363D;
+    --accent-primary: #7B2CBF; /* Cosmic Violet */
+    --accent-hover: #C71F7F;   /* Galaxy Magenta */
+    --font-main: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* -- 2. Header & Navigasi -- */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    background-color: rgba(16, 20, 31, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.5rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: var(--text-primary) !important;
+}
+.navbar-brand .brand-bold {
+    color: var(--accent-primary);
+    font-weight: 800;
+}
+.navbar-brand .brand-light {
+    font-weight: 400;
+    color: var(--text-primary);
+}
+
+
+.main-content {
+    padding-top: 130px;
+}
+
+/* -- 3. Filter & Tombol -- */
+.filter-section .btn, .btn-request, .btn-back {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-section .btn:hover, .btn-request:hover, .btn-back:hover {
+    background-color: var(--accent-hover);
+    border-color: var(--accent-primary);
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.dropdown-item {
+    color: var(--text-secondary);
+}
+
+.dropdown-item:hover, .dropdown-item.active {
+    background-color: var(--accent-primary);
+    color: #fff;
+}
+
+#search-input {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+#search-input:focus {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 0.25rem rgba(123, 44, 191, 0.25);
+}
+
+/* -- 4. Judul Section -- */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-primary);
+    display: inline-block;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btn-see-all {
+    color: var(--accent-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-see-all:hover {
+    color: var(--accent-hover);
+}
+
+/* -- 5. KARTU FILM CINEVERSE -- */
+.movie-card {
+    background-color: transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: var(--text-primary);
+    display: block;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(123, 44, 191, 0.3);
+}
+
+.movie-card .poster-wrapper {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.movie-card img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    background-color: var(--bg-secondary);
+}
+
+.quality-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+    text-transform: uppercase;
+    background-color: rgba(16, 20, 31, 0.7);
+    backdrop-filter: blur(5px);
+}
+.quality-hd { border-left: 3px solid #28a745; }
+.quality-4k { border-left: 3px solid #ffc107; }
+.quality-cam { border-left: 3px solid #dc3545; }
+
+.movie-card .card-body {
+    padding: 0.75rem 0.25rem;
+}
+
+.movie-card .movie-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.2s ease;
+}
+.movie-card:hover .movie-title {
+    color: var(--accent-primary);
+}
+
+/* -- 6. Pagination (List Page) -- */
+.page-link {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+.page-item.active .page-link {
+    background-color: var(--accent-primary);
+    border-color: var(--accent-primary);
+    color: #fff;
+}
+.page-link:hover {
+    background-color: var(--accent-hover);
+    border-color: var(--accent-hover);
+    color: #fff;
+}
+
+/* -- 7. Halaman Detail Film/Series -- */
+#player-placeholder {
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+#player-placeholder .play-icon {
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+#player-placeholder:hover .play-icon {
+    transform: scale(1.1);
+    color: var(--accent-primary);
+}
+#youtube-player, #video-player {
+    border-radius: 8px;
+}
+
+.info-label { font-weight: 600; color: var(--text-secondary); }
+.info-value { color: var(--text-primary); }
+.badge-subtitle { background-color: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary); }
+
+.episode-section {
+    background-color: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.episode-btn {
+    background-color: #30363D;
+    border-color: #444;
+    color: var(--text-primary);
+    flex-shrink: 0;
+}
+.episode-btn.active, .episode-btn:hover {
+    background-color: var(--accent-primary);
+    border-color: var(--accent-primary);
+    color: #fff;
+}
+.episode-list {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+.episode-list::-webkit-scrollbar { height: 6px; }
+.episode-list::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+
+/* -- 8. Footer -- */
+.site-footer {
+    border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+.site-footer .brand-bold { color: var(--accent-primary); }
+.site-footer .brand-light { color: var(--text-primary); }
